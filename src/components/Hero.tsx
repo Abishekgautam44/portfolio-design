@@ -20,7 +20,7 @@ const Hero: React.FC = () => {
       <div className="section-container">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className={`space-y-6 transition-all duration-1000 ${loaded ? "opacity-100" : "opacity-0 translate-y-10"}`}>
-            <h2 className="text-3xl font-bold text-cloud-800">Abishek Gautam</h2>
+            <h1 className="text-3xl font-bold text-cloud-800">Abishek Gautam</h1>
             <div className="badge mb-2">Certified Cloud Engineer</div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
               Transforming <span className="text-gradient">Cloud</span> Infrastructure
