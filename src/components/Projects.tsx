@@ -23,10 +23,10 @@ const Projects: React.FC = () => {
     },
     {
       id: 2,
-      title: "Multi-Cloud Architecture",
-      description: "Designed and implemented a fault-tolerant, multi-region architecture across AWS and Azure for a financial services application.",
+      title: "Multi-Cloud Security & Audit",
+      description:"Conducted a comprehensive multi-cloud audit across AWS and GCP to assess security posture, regulatory compliance, cost optimization, and operational best practices",
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
-      technologies: ["AWS", "Azure", "Kubernetes", "Terraform", "CI/CD", "Monitoring"],
+      technologies: ["AWS", "Azure", "GCP", "CIS", "AWS well architected framework", "Monitoring and Logging"],
     },
     {
       id: 3,

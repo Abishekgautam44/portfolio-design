@@ -16,6 +16,14 @@ const Certifications: React.FC = () => {
   const certifications: Certification[] = [
     {
       id: 1,
+      name: "AWS Certified DevOps Engineer – Professional",
+      provider: "Amazon Web Services",
+      date: "2025",
+      image: "https://images.credly.com/size/680x680/images/bd31ef42-d460-493e-8503-39592aaf0458/image.png",
+      credentialUrl: "https://www.credly.com/badges/1d2e758c-17d1-413a-80d3-2ec05c6c2278/public_url",
+    },
+    {
+      id: 2,
       name: "AWS Certified Solutions Architect - Associate",
       provider: "Amazon Web Services",
       date: "2025",
@@ -23,7 +31,7 @@ const Certifications: React.FC = () => {
       credentialUrl: "https://www.credly.com/badges/c6af0343-5432-4b53-a207-0a12abe49c13/public_url",
     },
     {
-      id: 2,
+      id: 3,
       name: "AWS Certified Cloud Practitioner",
       provider: "Amazon Web Services",
       date: "2023",
@@ -31,19 +39,11 @@ const Certifications: React.FC = () => {
       credentialUrl: "https://www.credly.com/badges/998c9f9d-6be9-440d-81d9-09c1b53fa813/public_url",
     },
     {
-      id: 3,
-      name: "AWS Academy Graduate - AWS Academy Cloud Developing",
-      provider: "Amazon Web Services",
-      date: "2025",
-      image: "https://images.credly.com/size/680x680/images/119182cf-ca68-495a-a415-bff62dfdcc7e/image.png",
-      credentialUrl: "https://www.credly.com/badges/73e74435-44c8-469b-ad14-19e18bd0c5da/public_url",
-    },
-    {
       id: 4,
       name: "AWS Academy Graduate - AWS Academy Cloud Operations",
       provider: "Amazon Web Services",
       date: "2025",
-      image: "https://images.credly.com/size/680x680/images/fa80f3f2-0383-4d44-8c14-099e2eb3be36/image.png",
+      image: "https://images.credly.com/size/680x680/images/07e7ba52-aea4-431f-ba2d-a4113efd1d5a/blob",
       credentialUrl: "https://www.credly.com/badges/96157f4f-a2ca-47d3-b96d-9ce1dd1b0e78/public_url",
     },
     {
